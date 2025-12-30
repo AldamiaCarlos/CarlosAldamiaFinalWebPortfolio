@@ -42,7 +42,7 @@ a {
 }
 
 
-/* ===== Loading Screen ===== */
+
 #loader {
   position: fixed;
   inset: 0;
@@ -87,7 +87,7 @@ a {
 }
 
 
-/* glowing stroke */
+
 #logoDraw path{
   stroke-dasharray:300;
   stroke-dashoffset:300;
@@ -107,7 +107,7 @@ a {
   animation:crtOff .35s forwards;
 }
 
-/* Navigation Bar */
+
 header {
   position: fixed;
   top: 0;
@@ -168,7 +168,7 @@ nav {
   transform: rotate(15deg) scale(1.1);
 }
 
-/* Hero Section */
+
 #home {
   min-height: 100vh;
   display: grid;
@@ -231,7 +231,7 @@ nav {
   }
 }
 
-/* Name Animation */
+
 .hero h1 {
   animation: pulseGlow 3s ease-in-out infinite;
 }
@@ -255,7 +255,7 @@ nav {
   }
 }
 
-/* Glass Cards */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -279,7 +279,7 @@ nav {
   margin-bottom: 12px;
 }
 
-/* Tools & Soft Skills */
+
 .tools-grid, .soft-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -306,7 +306,7 @@ nav {
   font-weight: 500;
 }
 
-/* Projects & Pages */
+
 .proj-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -350,7 +350,7 @@ nav {
   margin-bottom: 12px;
 }
 
-/* Pages Side-by-Side */
+
 .pages-side {
   display: flex;
   gap: 35px;
@@ -368,7 +368,7 @@ nav {
   }
 }
 
-/* Back-to-Top Button */
+
 #backTop {
   position: fixed;
   bottom: 30px;
@@ -395,7 +395,7 @@ nav {
   transform: translateY(-4px);
 }
 
-/* Contact */
+
 form {
   display: grid;
   gap: 16px;
@@ -424,7 +424,7 @@ input:focus, textarea:focus {
   --hover-image: var(--hover-image-light);
 }
 
-/* Image Hover Effect */
+
 .image-container {
   position: relative;
   width: 320px;
@@ -480,7 +480,7 @@ form button[type="submit"]:hover{
   50%{box-shadow:0 0 40px rgba(225,29,72,.8), 0 0 60px rgba(225,29,72,.5);}
 }
 
-/* ===== About Layout ===== */
+
 .about-layout {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -488,7 +488,7 @@ form button[type="submit"]:hover{
   align-items: center;
 }
 
-/* Inspiration side */
+
 .about-inspiration {
   text-align: center;
 }
@@ -516,13 +516,13 @@ form button[type="submit"]:hover{
   margin: 0 auto;
 }
 
-/* Cards on the right */
+
 .about-cards {
   display: grid;
   gap: 28px;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .about-layout {
     grid-template-columns: 1fr;
@@ -537,6 +537,7 @@ form button[type="submit"]:hover{
     order: 1;
   }
 }
+
 
 
 
