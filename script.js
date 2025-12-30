@@ -37,7 +37,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-/* Theme Toggle */
+
 const themeToggle = document.getElementById('themeToggle');
 const html = document.documentElement;
 const initialImage = document.getElementById('initialImage');
@@ -80,3 +80,4 @@ for (let i = 0; i < 5; i++) {
   console.log("%c🎆🎇🎆🎇🎆", `color:hsl(${Math.random() * 360}, 100%, 50%); font-size:${12 + Math.random() * 12}px`);
 
 }
+
