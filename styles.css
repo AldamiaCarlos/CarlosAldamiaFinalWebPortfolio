@@ -97,7 +97,7 @@ a {
   to{stroke-dashoffset:0;}
 }
 
-/* subtle CRT flick-off after draw */
+
 @keyframes crtOff{
   0%  {opacity:1; transform:scale(1);}
   50% {opacity:.15; transform:scale(1.005);}
@@ -537,6 +537,7 @@ form button[type="submit"]:hover{
     order: 1;
   }
 }
+
 
 
 
